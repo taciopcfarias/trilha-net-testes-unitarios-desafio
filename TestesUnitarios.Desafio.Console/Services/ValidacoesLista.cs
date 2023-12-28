@@ -7,6 +7,7 @@ namespace TestesUnitarios.Desafio.Console.Services
             var listaSemNegativos = lista.Where(x => x > 0);
             return listaSemNegativos.ToList();
         }
+        
 
         public bool ListaContemDeterminadoNumero(List<int> lista, int numero)
         {
